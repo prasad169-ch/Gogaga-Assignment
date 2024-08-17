@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar-brand.gogaga-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text-primary {
+    color: #007bff !important;
+    /* Blue color */
+}
+
+.text-success {
+    color: #28a745 !important;
+    /* Green color */
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://res.cloudinary.com/dklmy9xih/image/upload/v1723860724/download_foaoto.jpg');
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.hero .container {
+    z-index: 1;
+    position: relative;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+/* Search Box */
+.search-box {
+    background: #fff;
+    /* White background for the search box */
+    padding: 20px;
+    border-radius: 15px;
+    /* Rounded corners */
+}
+
+.btn-black {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.but-2 {
+    color: black;
+}
+
+.rating-label {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000;
+}
+
+/* Star Rating Buttons */
+.rating-btn {
+    background-color: #000;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    padding: 5px 10px;
+    /* Added padding for better spacing */
+}
+
+.rating-btn .fa-star {
+    margin-right: 5px;
+    color: #fff;
+    /* White color for the star */
+    /* White border around the star */
+    border-radius: 50%;
+    /* Make the border round */
+    padding: 3px;
+    /* Space between the star and its border */
+}
